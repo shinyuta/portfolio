@@ -1,0 +1,159 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161367.jpg?size=626&ext=jpg&ga=GA1.1.1855002562.1688681695&semt=ais);
+    background-size:contain
+    
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:darkmagenta;
+}
+
+h2 {
+    background-color:darkmagenta;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    border-right: 2px solid black;
+    padding-right: 10px;
+
+
+}
+
+header nav ul li:hover {
+    border: 3px solid black;
+}
+
+a {
+    color: black;
+}
+li{
+    list-style: none;
+}
+
+section {
+    display: flex;
+    margin: 20px 0;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+section h2, section .aboutImg {
+    flex: 0 0 20%;
+    text-align: center;
+}
+
+section div {
+    flex: 0 0 77%;
+}
+
+section div p {
+    padding: 15px;
+}
+
+img {
+    box-sizing: border-box;
+}
+
+#border-work {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.about-me {
+    color: black;
+}
+
+.about-me-p {
+    background-color: darkmagenta;
+}
+
+.about-me-photo {
+    height: 350px;
+    width: 200px;
+    padding: 10px;
+    }
+
+    .work {
+    color: black;
+}
+
+.contact-me {
+    background-color: darkmagenta;
+    
+}
+
+.contact-me div ul {
+    display: flex;
+}
+
+.contact-me div ul li{
+    margin-right: 10px;
+    border-right:2px solid black;
+    padding-right: 10px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    height: 200px;
+    width: 200px;
+    margin: 4px;
+    flex-basis: calc(50% - 1em);
+    background-size: cover;
+background-position: center;
+}
+
+.box-one {
+    height: 500px;
+    flex-basis: 100%;
+    background-image: url('./Images/background\ card.jpeg');
+    }
+
+.box-two {
+
+    background-image: url('./Images/background\ card.jpeg');
+  }
+
+.box-three {
+
+    background-image: url('./Images/background\ card.jpeg');
+   }
+
+.box-four {
+
+    background-image: url('./Images/background\ card.jpeg');
+   }
+
+.box-five {
+
+    background-image: url('./Images/background\ card.jpeg');
+    }
+
+.contact-me {
+    color: black;
+}
+
